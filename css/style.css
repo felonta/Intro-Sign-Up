@@ -87,6 +87,13 @@ button {
   text-transform: uppercase;
   background: hsl(154, 59%, 51%);
   cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 2px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background: hsl(154, 53%, 50%);
 }
 
 #form input:focus,
